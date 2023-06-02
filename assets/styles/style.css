@@ -1,0 +1,492 @@
+@import url(./font.css);
+*{
+    font-family: "Main";
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+* a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_screen{
+    width: 1336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_screen .main_menu_one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 8rem 1.25rem 8rem;
+    border-bottom: 1px solid black;
+}
+
+.main_screen .main_menu_one .world{
+    background-image: url(../images/globe.svg);
+    width: 1.10rem;
+    height: 1.10rem;
+}
+
+.main_screen .main_menu_one .lens{
+    background-image: url(../images/globe.svg);
+    width: 1.10rem;
+    height: 1.10rem;
+}
+
+.main_screen .main_menu_one .body{
+    background-image: url(../images/globe.svg);
+    width: 1.10rem;
+    height: 1.10rem;
+}
+
+.main_screen .main_menu_one .basket{
+    background-image: url(../images/cart.svg);
+    width: 1.25rem;
+    height: 1.10rem;
+}
+
+.main_screen .main_menu_one h2{
+    font-weight: 400;
+    margin-left: 23rem;
+    margin-right: 23rem;
+}
+
+.main_screen .main_menu_one h3{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.main_screen .main_menu_two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 8.75rem 1.25rem 8.75rem;
+    border-bottom: 1px solid black;
+}
+
+.main_screen .main_menu_two .list{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_screen .main_menu_two .list a{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.main_screen .block_one{
+    margin-top: 5.30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_screen .block_one .txt{
+    display: flex;
+    align-items: flex-end;
+}
+
+.main_screen .block_one .txt h1{
+    font-size: 8.625rem;
+    font-weight: 400;
+    line-height: 0.85;
+}
+
+.main_screen .block_one .txt h3{
+    font-family: "Main_2";
+    font-size: 1.125rem;
+    font-weight: 500;
+    width: 16.25rem;
+}
+
+.main_screen .block_one .photo{
+    margin-top: 3.125rem;
+    width: 75rem;
+    height: 28.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_screen .block_one .photo .image_one{
+    width: 74%;
+    height: 100%;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+}
+
+.main_screen .block_one .photo .image_two{
+    width: 23%;
+    height: 100%;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+}
+
+.categories{
+    margin-top: 10rem;
+}
+
+.categories .txt h2{
+    font-size: 4.375rem;
+    font-weight: 400;
+}
+
+.categories .everyone{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 73.125rem;
+    height: 41.875rem;
+}
+
+.categories .everyone .photo{
+    width: 30%;
+    height: 100%;
+}
+
+.categories .everyone .photo .image{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.categories .everyone .photo h3{
+    font-family: "Main_2";
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.categories .everyone .photo.one .image{
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+}
+.categories .everyone .photo.two .image{
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+}
+.categories .everyone .photo.three .image{
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+}
+
+
+.new_collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1336px;
+    background-image: url(../images/6.jpg);
+    height: 43.75rem;
+    background-size: cover;
+    color: white;
+}
+
+
+.new_collection h2{
+    font-size: 4.375rem;
+    font-weight: 400;
+}
+
+.new_collection p{
+    font-family: "Main_2";
+    margin-top: 1rem;
+    width: 38.75rem;
+    font-size: 1.375rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.new_collection a{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.375rem;
+    width: 16.875rem;
+    background-color: white;
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+
+.new_items_of_the_season{
+    width: 1336px;
+    padding: 0 8rem 0 8rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new_items_of_the_season .h2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.new_items_of_the_season .h2 h2{
+    font-size: 4.375rem;
+    font-weight: 400;
+}
+
+.new_items_of_the_season .h2.one{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.new_items_of_the_season .h2.two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new_items_of_the_season .section_photo{
+    width: 100%;
+    height: 31.25rem;
+    margin-top: 3.125rem;
+    width:73.125rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.new_items_of_the_season .section_photo .photo_mid{
+    height: 95%;
+    width: 30%;
+}
+
+.new_items_of_the_season .section_photo .photo_mid.one .image{
+    background-image: url(../images/7.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+}
+
+.new_items_of_the_season .section_photo .photo_mid.two .image{
+    background-image: url(../images/10.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+}
+
+.new_items_of_the_season .section_photo .photo_short{
+    height: 45%;
+    width: 30%;
+}
+
+.new_items_of_the_season .section_photo .photo_short.two{
+    margin-top: 1rem;
+}
+
+.new_items_of_the_season .section_photo .photo_mid h3{
+    font-family: "Main_2";
+    font-size: 1.375rem;
+    margin-top: 0.5rem;
+}
+
+.new_items_of_the_season .section_photo .photo_short h3{
+    font-family: "Main_2";
+    font-size: 1.375rem;
+    margin-top: 0.5rem;
+}
+
+.new_items_of_the_season .section_photo .photo_short.one .image{
+    background-image: url(../images/8.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 83%;
+}
+
+.new_items_of_the_season .section_photo .photo_short.two .image{
+    background-image: url(../images/9.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 83%;
+}
+
+.product_card{
+    width: 1336px;
+    padding: 0 8rem 8rem 8rem;
+    margin-top: 7.5rem;
+}
+
+.product_card .image{
+    margin-right: 6.25rem;
+    width: 37.5rem;
+    height: 41.875rem;
+    background-image: url(../images/11.jpg);
+    background-size: cover;
+}
+
+.product_card .card{
+    flex-direction: column;
+
+}
+
+
+
+.advantages{
+    padding: 3.5rem 7.125rem 3.5rem 7.125rem;
+    width: 1336px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+}
+
+.advantages .block{
+    width: 15.625rem;
+}
+
+.advantages .block h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.advantages .block p{
+    font-family: "Main_2";
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+.advantages .block.one .image{
+    background-image: url(../images/communication.svg);
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+}
+
+.advantages .block.two .image{
+    background-image: url(../images/communication.svg);
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+}
+
+.advantages .block.three .image{
+    background-image: url(../images/discount.svg);
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+}
+
+.advantages .block.four .image{
+    background-image: url(../images/discount.svg);
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+}
+
+
+.about_us{
+    width: 1336px;
+    height: 58.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_us .photo{
+    margin-right: 6.25rem;
+    width: 25rem;
+    height: 37.5rem;
+    background-image: url(../images/12.jpg);
+    background-size: cover;
+}
+
+.about_us .inf h1{
+    font-size: 4.375rem;
+    font-weight: 400;
+}
+
+.about_us .inf p{
+    margin-top: 4.375rem;
+    font-family: "Main_2";
+    font-weight: 400;
+    font-size: 1.375rem;
+    width: 41.25rem;
+}
+
+.about_us .inf p.two{
+    margin-top: 1rem;
+}
+
+.subscription_form{
+    width: 1336px;
+    height: 64rem;
+    background-color: black;
+    color: white;
+    padding: 10rem 8.75rem 6.25rem 8.75rem;
+}
+
+.subscription_form .h2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subscription_form .h2 h2{
+    font-size: 4.375rem;
+    font-weight: 400;
+}
+
+.subscription_form .h2.one{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subscription_form .h2.two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscription_form .inf{
+    margin-top: 5rem;
+    width: 90%;
+    height: 34.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription_form .inf .right{
+    width: 65%;
+    height: 34.375rem;
+}
+
+.subscription_form .inf .right p{
+    font-family: "Main_2";
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+
+.subscription_form .inf .right .image{
+    background-image: url(../images/13.jpg);
+    background-size: cover;
+    margin-top: 1.5rem;
+    width: 90%;
+    height: 60%;
+}
